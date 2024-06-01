@@ -24,5 +24,3 @@ npm install
 
 # Execute o projeto
 npm run dev
-
-<img sr
