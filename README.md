@@ -1,31 +1,28 @@
-# React + TypeScript + Vite
+# Nome do Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este web app tem como função cadastrar endereços residenciais e corporativos visando facilitar o transporte interplanetário entre Terra e Marte
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A ideia deste projeto é de criar uma interface frontend em que o usuário pudesse criar endereços na Terra e em Marte, deletar e editar os endereços criados.
 
-## Expanding the ESLint configuration
+## Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Liste os requisitos necessários para instalar o projeto.
+```markdown
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-- Configure the top-level `parserOptions` property like this:
+# Clone o repositório
+git clone https://github.com/rubensborges/test-beyond-the-bytes.git
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# Entre no diretório do projeto
+cd bytes-test
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# test-beyond-the-bytes
+# Instale as dependências
+npm install
+
+# Execute o projeto
+npm run dev
+
+<img sr
